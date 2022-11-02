@@ -1,4 +1,4 @@
-# Official Code for paper ``Improving Adversarial Robustness of 3D Point Cloud Classification Models'', which will appear in ECCV 2022.
+# Official Code for Paper ``Improving Adversarial Robustness of 3D Point Cloud Classification Models''(ECCV 2022)
 
 ## Requirements
 * Tensorflow>=1.14.0 (not support Tensorflow 2.0)
@@ -25,3 +25,19 @@ python train.py
 Parts of code are from [DGCNN](https://github.com/WangYueFt/dgcnn),
 [PointCloud-Saliency-Map](shttps://github.com/tianzheng4/PointCloud-Saliency-Maps) 
 and [PointCutMix-K](https://github.com/cuge1995/PointCutMix).
+
+
+## Cite
+
+If you find our work is useful, please cite it with the following format:
+
+```
+@inproceedings{li2022improving,
+  title={Improving Adversarial Robustness of 3D Point Cloud Classification Models},
+  author={Li, Guanlin and Xu, Guowen and Qiu, Han and He, Ruan and Li, Jiwei and Zhang, Tianwei},
+  booktitle={European Conference on Computer Vision},
+  pages={672--689},
+  year={2022},
+  organization={Springer}
+}
+```
